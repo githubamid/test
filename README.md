@@ -1,5 +1,9 @@
-## Project's reporter: Dmitry Khomich
-## Group number: m-sa2-11-19
+# E-Commerce project
+## This project use blue/green deployment for faster delivary updates
+# Getting Started
+## In this manual you will receive comprehensive information on how 
+## to deploy the project automatically
+# Prerequisites
 ## Description of application for deployment
    - WordPress
    - PHP
