@@ -4,8 +4,8 @@
 ### In this manual you will receive comprehensive information on how 
 ### to deploy this project automatically
 ## Prerequisites
-### * Two virtual hosts
-### * Jenkins, Ansible
+* Two virtual hosts
+* Jenkins, Ansible
 ```
 You should customize:
  1. Authentication to GitLab
