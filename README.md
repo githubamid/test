@@ -7,9 +7,9 @@
 * Two virtual hosts
 * Jenkins, Ansible
 ```
-You should customize:
- 1. Authentication to GitLab on host with Jenkins and Ansible
- 2. Do two pipeline (blue/green) in Jenkins with Jenkinsfiles
+You should:
+ 1. Create production environment
+ 2. Customize orchestration and automation tools
 ```
 ## Installing on AWS
 ### Training environment
@@ -20,9 +20,11 @@ You should customize:
  5. Both of this host have to be in one subnet
 ### Training tools
  1. Install Jenkins and Ansible on Bastion Host
+ 2. Customize authentication to GitLab from Jenkins 
  2. Configure dynamic inventory for Ansible
- 3. Check access on Production Host with ansible ad-hoc command 
-## Description of application for deployment
+ 3. Check access on Production Host with ansible ad-hoc command
+ 4. Create two pipeline (blue and green) in Jenkins with Jenkinsfiles
+## Test and Deployment
    - WordPress
    - PHP
    - MySql
