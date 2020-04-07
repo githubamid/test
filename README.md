@@ -25,13 +25,11 @@ You should:
  3. Check access on Production Host with ansible ad-hoc command
  4. Create two pipeline (blue and green) in Jenkins with Jenkinsfiles
 ## Test and Deployment
-   - WordPress
-   - PHP
-   - MySql
-   - https://github.com/githubamid/project
+### This is the easiest part, you only need to run necessary pipeline
+### And expect completion of testing and deployment
 ## Technologies which were used in project
-### Orchestration: Jenkins, git
-### Automation tools: Ansible, bash
+### Orchestration: Jenkins, GitLab
+### Automation tools: Ansible, Docker, Docker-Compose
 ### CI description: by poll, tests, delivery
-### Blue/Green Deployment
+### Blue/Green Deployment set of WAMP
 <img src="image/scheme.png" weith="10" hight="10">
